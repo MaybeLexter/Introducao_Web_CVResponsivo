@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV do Leo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: aliceblue;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+        }
+
+        p, ul {
+            text-align: left;
+            color: aliceblue;
+        }
+
+        a {
+            display: block;
+            text-align: left;
+            color: aliceblue;
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 40px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            background-color: gray;
+            padding: 20px;
+        }
+
+        .dados {
+            background-color: rgb(59, 60, 60);
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            h1, h2 {
+                text-align: center;
+            }
+
+            a {
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            img {
+                height: 150px;
+                width: 150px;
+            }
+
+            h2 {
+                font-size: 30px;
+            }
+
+            p, ul, a {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h2>Curriculum Vitae</h2>
+            <img src="https://pbs.twimg.com/media/E_-n9L3VkAkTHAT.png" alt="gatofoda">
+        </div>
+        <div class="dados">
+            <div>
+                <h1>Dados de Contato</h1>
+                <p>Nome: Leonardi Vinicius Mouzinho Oliveira da Silva</p>
+                <p>Email: leonardi@unemat.br</p>
+                <p>Telefone: 4002-8922</p>
+                <p>Endereço: Rua Lourdes Sentis Duros</p>
+                <p>Idade: 22</p>
+                <p>Estado Civil: Solteiro</p>
+                <a href="https://www.linkedin.com/profile/leo">https://www.linkedin.com/profile/leo</a>
+                <a href="https://www.facebook.com/profile/leo">facebook.com/profile/leo</a>
+                <a href="https://x.com/leoleo">x.com/leoleo</a>
+            </div>
+            <div>
+                <h1>Experiências Profissionais</h1>
+                <ul>
+                    <li><strong>Diletta Solutions - Especialista de BI</strong></li>
+                    <li>Fiz relatório e fiz relatório</li>
+                    <li><strong>Matera - Scrum Master</strong></li>
+                    <li>Ajudei a evangelizar o SCRUM e elaborei diversos projetos de criação de software, elaboração de UML e prospecção de projetos</li>
+                </ul>
+
+                <h1>Escolaridade</h1>
+                <p>Unemat, UNEMAT - Universidade do Estado de Mato Grosso, 5° Semestre</p>
+
+                <h1>Cursos</h1>
+                <p>PowerBI- Básico Avançado, Udemy, 2024</p>
+
+                <h1>Soft e Hard Skills</h1>
+                <ul>
+                    <li>Comunicativo</li>
+                    <li>Atencioso</li>
+                    <li>Esforçado</li>
+                    <li>Scrum</li>
+                    <li>Trabalho em Equipe</li>
+                    <li>Dialeto e Orátoria</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
